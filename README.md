@@ -10,7 +10,7 @@ First install [anaconda](https://www.anaconda.com/distribution/) or [miniconda](
 
 Then create a new _virtual environment_ for your projects e.g.
 ```
-conda -n machinelearning python=3.7
+conda create -n machinelearning python=3.7
 ```
 This will create a virtual environment named `machinelearning`. 
 
@@ -21,17 +21,14 @@ conda activate machinelearning
 
 
 In case of Anaconda distribution most of the needed packages will be preinstalled. In case of miniconda you have to install them yourself using `conda install`. 
-
-Here is a hopefully complete list of packages you will need for the start:
+After activating your environment you can install packages using the command below
 
 ```
-conda install notebook  jupyter jupyterlab
-conda install numpy scipy 
-conda install matplotlib
-conda install pandas
-conda install scikit-learn
+conda install notebook  jupyter jupyterlab numpy scipy matplotlib  pandas scikit-learn
 ```
- 
+You can of course install packages one by one if you prefer. 
+
+
 Then you can type
 ```
 jupyter lab 
