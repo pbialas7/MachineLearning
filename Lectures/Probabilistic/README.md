@@ -1,0 +1,38 @@
+# Probabilistics methods
+
+## Content 
+
+### Probability
+
+In this notebook I recollect basic concepts of probability calculus. 
+It also introduces some popular probability distributions for further reference. 
+
+### Classification
+
+In this notebook I introduce the _generative_ classification methods. The word generative in this context means that we are trying to estimate (learn) the process by which the data was generated. This will allow us to calculate conditional probabilities of class given the features(data). 
+
+I will also introduce various ways to calculate errors including confusion matrix, roc curves etc. I will also discuss the notion of optimal classifier. 
+
+### Classification Naive Bayes
+
+In this notebook we will  actually for the first time start training the classifiers i.e. get to the "learning"  part in Machine Learning. We will reimplement the "sex from height" classifier this times basing on data.
+
+We will also add weight as an additional feature and introduce Naive Bayes classifier. 
+
+
+### Bayesian analysis*
+
+Generative methods that are the subject of this chapter require estimation of the parameters of probability distributions. This is a domain of _statistics_. In this notebook I introduce the concepts of Baysian statistics. While we will not be using any advanced techniques, the concepts of  prior and posterior probability distributions are very important and widly refered to in many ML tasks.  
+
+You can skip the A/B testing example on the first reading. 
+
+### Categorical
+
+While in classification and classification_naive_bayes notebooks we have constructed classifiers with continous features, in this notebook we will play with an example  of 
+classifier with solely categorical (nominal) features. This will also give us oportunity to use the tools for constructing classifiers  provided in the scickit-learn library. We will also learn to measure the performance of non-binary classifiers. 
+
+### Text analysis
+
+This notebook introduces very simple text classification based on Multinomial Naive Bayes. We will learn how to use text preprocesing tools from scikit-learn library and apply them to predict ratings of amazon reviews.
+
+We will also start doing some hyperparameters tuning, that is the parameters that control how the classifiers learn. 
