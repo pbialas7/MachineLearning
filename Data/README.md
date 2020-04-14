@@ -16,7 +16,8 @@ The [car evaluation dataset](http://archive.ics.uci.edu/ml/datasets/Car+Evaluati
 
 ### Amazon reviews 
 
-As an example we will use the [car evaluation dataset](http://archive.ics.uci.edu/ml/datasets/Car+Evaluation) from [UCI Machine Learning repository](http://archive.ics.uci.edu/ml/). It contains 1728 samples with six atttributes (features) each. The class label is the evaluation of the car: unacc, acc, good, vgood.
+The Amazon review data set. This data set is very handy because it contains both documents (reviews) and labels (ratings). The original data set is HUGE  and can be  _e.g._ found [here](http://jmcauley.ucsd.edu/data/amazon/). We will use the preprocessed data from
+[ Xiang Zhang's Google Drive dir](https://drive.google.com/open?id=0Bz8a_Dbh9Qhbfll6bVpmNUtUcFdjYmF2SEpmZUZUcVNiMUw1TWN6RDV3a0JHT3kxLVhVR2M) that can be downloaded as a tar archive. However it still has 1.5GB of data. So for the sake of this lecture I have prepared a smaller sample that I have additionally compressed with 'bz2' reducing the size to "only" 41MB. You can play with original file by downloading it directly from the above link. 
 
 The data was selected using the code below. 
 
