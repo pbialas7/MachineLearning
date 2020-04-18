@@ -14,7 +14,7 @@ The notebooks assume some basic understanding of probability and statistics, but
 
 The Data directory contains the data used in the examples throughout the lectures. Only relatively small datasets are included. You will be encouraged the download bigger datasets via links in the notebooks. 
 
-### Problems
+### Classes
 
 This directory  contains the problems you will be required to solve. Those will be also presented in form of the notebooks. 
 
