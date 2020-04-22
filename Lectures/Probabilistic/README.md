@@ -36,3 +36,10 @@ classifier with solely categorical (nominal) features. This will also give us op
 This notebook introduces very simple text classification based on Multinomial Naive Bayes. We will learn how to use text preprocesing tools from scikit-learn library and apply them to predict ratings of amazon reviews.
 
 We will also start doing some hyperparameters tuning, that is the parameters that control how the classifiers learn. 
+
+
+### Gaussian (quadratic) Discriminative Analysis
+
+This notebook describes   classification method based, in spite of the name, on the same generative principle. In this approach the  sampling distribution for each class is assumed to be Multivariate Normal (Gaussian). This leads to classification regions being bounded by quadratic surfaces (curves), hence also the name Quadratic Discriminative Analysis. 
+This  method encompasses as specialisation also Gaussian Naive Bayes and Linear Discriminative Analysis. 
+
