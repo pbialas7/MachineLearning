@@ -87,12 +87,12 @@ def roc_plot(figsize=[8, 8]):
     return fig, ax
 
 
-def add_roc_curve(y_true, y_score, name, ax=plt.gca):
+def add_roc_curve(y_true, y_score, name, ax=plt.gca, **kwargs):
     if not ax:
         ax = plt.gca()
     fprs, tprs, thds = roc_curve(y_true, y_score)
     auc = roc_auc_score(y_true, y_score)
-    ax.plot(fprs, tprs, label="{:s}  {:5.3f}".format(name, auc));
+    ax.plot(fprs, tprs, label="{1:5.3f} {0:s} ".format(name, auc), **kwargs);
     return fprs, tprs, thds, auc
 
 

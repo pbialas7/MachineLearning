@@ -22,6 +22,5 @@ class NormalInverseGamma:
     def mean(self):
         return self.m0, self.b / (self.a - 1)
 
-
     def mode(self):
         return self.m0, self.b / (self.a + 1.5)
