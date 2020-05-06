@@ -19,6 +19,12 @@ In this assignment you will train a classifier to recognise spam emails. The dat
 
 In this assignemnt you will train a Guassian Discriminative Analysis classifier to classify pixels as skin or no skin based on the color. The data is taken from [Skin Segmentation Data Set](http://archive.ics.uci.edu/ml/datasets/Skin+Segmentation#) in the UCI Machine Learning repository. 
 
+### Banknote authentication
+
+The task in this assignment is to detect the counterfeit banknotes. The data set is based on banknote authentication Data Set from UCI Machine Learning repository. The first three columns denote different parameters obtained from the photographs of the banknotes and last colum provides the label. Frankly as the dataset does not have any description I don't know which labels corresponds to real and which to counterfeited banknotes. let's assume that label one (positive) denotes the clounterfeits.
+
+You will be using the Gaussian Mixture Discriminant Analysis fro this assignment. 
+
 
 
 

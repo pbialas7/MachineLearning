@@ -48,3 +48,7 @@ This  method encompasses as specialisation also Gaussian Naive Bayes and Linear 
 So far we have tried hard to estimate the probability of examplar belonging to class  _c_ given the features  __x__ 
 but to some  we have not actually made use of the fact that this is a probability. We have treated the output of the classifier as a score that we used for thresholding. While the ultimate goal of the classfier is to classify, we can treat the probabilistic classifiers presented so far as doing regression i.e. learning a function. In this case the function is the conditional probability presented above. We have also concentrated solely on measuring classification performance, but we can also ask how well is the classifier predicting the probabilities? This is a question about the calibration of the classifier and this is the subject of this notebook. 
 
+
+### Gausian Mixture Models and  EM algorith
+
+When the requirement that features distribution in each class is multivariate normal is too restrictive, we can use the Gaussian Mixture Model (GMM) to estimate the density in each class. This notebook provides an introduction to Estimation-Maximization algorihm used for fitting sych models. 
