@@ -52,3 +52,18 @@ but to some  we have not actually made use of the fact that this is a probabilit
 ### Gausian Mixture Models and  EM algorith
 
 When the requirement that features distribution in each class is multivariate normal is too restrictive, we can use the Gaussian Mixture Model (GMM) to estimate the density in each class. This notebook provides an introduction to Estimation-Maximization algorihm used for fitting sych models. 
+
+### Gaussian Mixture Models for clustering
+
+In the gaussian mixture models - EM notebook we have used the mixture models for _density estimation_ e.g. modeling the  distribution of features in each class. Another common application is _clustering_. 
+
+
+While technically the procedure of fitting is similar to supervised learning with gaussian mixture discriminative analysis (GMDA) the crucial difference lies in the interpretation. 
+
+In GMDA the clusters are only a mean to better approximation of the class probability densities and their interpretation is irrelevant for the functioning of the classifier. We can choose the number of clusters that gives best classification results, because we have clear metrics to measure the performance.
+
+In clustering we usually want to discover the structure of data and assign some interpretation to discovered clusters. But the  number of clusters is an input parameter. In the height-weight examples we knew that  this was two so the results were good. And we have used the real labels to check that. 
+
+But this is not a case in general. We could experiment with different number of clusters but we need the criteria for evaluating the quality of clustering in absence of real labels. 
+
+In this notebook we will discuss how the estimate the "best" number of clusters. 
