@@ -8,3 +8,5 @@ Lectures/.ipynb_checkpoints/
 Classes/enron-spam/data/
 
 .DS_Store
+
+mchlearn/__pycache__/
