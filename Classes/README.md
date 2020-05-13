@@ -26,5 +26,6 @@ The task in this assignment is to detect the counterfeit banknotes. The data set
 You will be using the Gaussian Mixture Discriminant Analysis for this assignment. 
 
 
+### Cinderella
 
-
+In this assignment, you will help Cinderella separate lentil from ashes using the Gaussian mixture model clustering. 
