@@ -29,3 +29,8 @@ You will be using the Gaussian Mixture Discriminant Analysis for this assignment
 ### Cinderella
 
 In this assignment, you will help Cinderella separate lentil from ashes using the Gaussian mixture model clustering as described in the GMM clustering notebook. 
+
+### Exam 
+
+In this assignment you will be asked to  construct a simple probabilistic model of the exam and answer queries using the `pgmpy` library. You should consult the Lectures/Probabilistic/PGM.ipynb notebook for details. 
+
