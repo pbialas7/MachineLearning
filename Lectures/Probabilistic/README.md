@@ -67,3 +67,7 @@ In clustering we usually want to discover the structure of data and assign some 
 But this is not a case in general. We could experiment with different number of clusters but we need the criteria for evaluating the quality of clustering in absence of real labels. 
 
 In this notebook we will discuss how the estimate the "best" number of clusters. 
+
+### Probabilistic Graphical Models (PGM)
+
+The probabilistic approach to Machine Learning is all about probability distributions. With many  variables the joint probability distribution quickly becomes intractable. However often not all variables are dependent on each other. Exploating the (in)dependence structure of the model can reducer the number of parameters by several orders of magnitude. Graphical models give a very intuitive way to represent such structure. This notebook is a short introduction to this topic. 
